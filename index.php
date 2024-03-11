@@ -25,15 +25,19 @@ echo "<br>the sum of $a % $b is : .$g";
 
 
 // ARTHMETIC OPERATORS
+
 $apple =45;
 // post increment
+
 echo "<br> the increment of this number is:".$apple++;
 echo "<br>" .$apple;
 
 // PRE iNCREMENT
+
 echo "<br> the increment of this number is:".++$apple;
 
 // Assignment
+
 $a =209;
 echo "<br> the increment of this number is:".$a--;
 echo "<br>" .--$a;
