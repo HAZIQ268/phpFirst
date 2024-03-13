@@ -44,7 +44,7 @@
                 <input type="checkbox" name="food[]" value="Tikka" id="">Tikka<br>
                 </div>
 
-                <input type="submit" name="submit" class="btn btn-dark mt-3 fw-bold " value="submit">
+                <input type="submit" name="submit" class="btn btn-warning mt-3 fw-bold " value="submit">
                 </form>
             </div>
             <div class="col-lg-6">
