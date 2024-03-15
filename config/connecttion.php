@@ -1,5 +1,5 @@
 <?php
-// connect php to mysql
+// vscode connect php to mysql 
 
         $serverName = "localhost";
         $userName = "root";
@@ -13,7 +13,7 @@
             echo "<br> Connection Successful" ;           
         }
         else {
-            echo "<br> Connection Failed" ;           
+            echo "<br> Connection Failed" ;         
         }
 
 
