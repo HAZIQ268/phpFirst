@@ -2,7 +2,7 @@
 
     include("config/connecttion.php");
 
-    $sql = "insert into users (Name,Email,password) values ('alex','alex@gmail.com' ,'angry123')";
+    $sql = "insert into users (Name,Email,password) values ('peter','peter@gmail.com' ,'APPLE123')";
 
     $result = $connection->query($sql);
 
