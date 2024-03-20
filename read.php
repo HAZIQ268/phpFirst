@@ -12,6 +12,7 @@ if ($result == true) {
 };
 if ($result->num_rows>0) {
     while ($row = $result->fetch_assoc()) {
+
         echo "<pre>";
         print_r($row);
         echo "</pre>";
