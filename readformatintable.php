@@ -26,8 +26,8 @@
 </head>
 <body>
  <div class="container">
-    <table class="table text-white table-bordered">
-    <tr>
+    <table class="table text-white table-bordered ">
+    <tr class="">
                 <th>Id</th>
                 <th>Name</th>
                 <th>Email</th>
@@ -42,8 +42,8 @@
                 <td>".$rows['name']."</td>
                 <td>".$rows['email']."</td>
                 <td>".$rows['password']."</td>
-                <td><a href='editorupdate.php?idd = ".$rows['id']."' class='btn btn-success '>Edit</a></td>
-                <td><a href='createdelete.php?idd = ".$rows['id']."' class='btn btn-danger '>Delete</a></td>
+                <td><a href='editorupdate.php?idd =".$rows['id']."' class='btn btn-success '>Edit</a></td>
+                <td><a href='createdelete.php?idd =".$rows['id']."' class='btn btn-danger '>Delete</a></td>
 
                 
               
