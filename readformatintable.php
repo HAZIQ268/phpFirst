@@ -27,7 +27,7 @@
 <body>
  <div class="container">
     <table class="table text-white table-bordered ">
-    <tr class="">
+    <tr class="bg-primary">
                 <th>Id</th>
                 <th>Name</th>
                 <th>Email</th>
