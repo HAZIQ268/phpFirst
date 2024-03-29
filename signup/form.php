@@ -9,7 +9,7 @@
         $email = $_POST['email'];
         $password = $_POST['password'];
     
-        $sql = "select * student where name = '$username' and email = '$email' and password ='$password'";
+        $sql = "select * from student where name = '$username' and email = '$email' and password ='$password'";
         $result = mysqli_query($conn ,$sql);
 
         echo "<pre>";
@@ -21,7 +21,7 @@
                 echo "<br>Login Successful";
                 echo "<script>setTimeout(function(){
                     window.location.href='login.php'
-                },4000)</script>";
+                },3000)</script>";
             }
         }else {
             echo "<br>Login Failed!";
