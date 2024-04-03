@@ -9,12 +9,12 @@
         $conn = new mysqli ($serverName ,$userName ,$password ,$dbName);
 
 
-        if ($conn == true) {
-            echo "<br> Connection Successful" ;           
-        }
-        else {
-            echo "<br> Connection Failed" ;         
-        }
+        // if ($conn == true) {
+        //     echo "<br> Connection Successful" ;           
+        // }
+        // else {
+        //     echo "<br> Connection Failed" ;         
+        // }
 
 
 
