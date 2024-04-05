@@ -76,7 +76,7 @@
             <label for="">Select Your Image</label>
             <input type="file" name="image"  class="form-control" id="">
         </div>
-        <input type="submit" value="submit" name="submit" class="mt-3 btn btn-success">
+        <input type="submit" value="submit" name="submit" class="mt-3 btn btn-danger" >
         </form>
     </div>
 </body>
